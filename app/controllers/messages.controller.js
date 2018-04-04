@@ -31,7 +31,7 @@ function newMessage(req, res) {
         if (err)
             throw err;
 
-        // Redireciona para nova mensagem criado.
+        // Redireciona para todas mensagens.
         res.redirect(`/messages`);
     });
 };

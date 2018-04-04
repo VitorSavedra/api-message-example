@@ -8,7 +8,7 @@ const express = require('express'),
     mongoose = require('mongoose'),
     bodyParser = require('body-parser');
 
-// Permite os requests parsearem JSON
+// Permite 'parsear' os requests.
 app.use(bodyParser.json());
 
 // Conecta com o banco de dados.
